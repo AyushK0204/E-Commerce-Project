@@ -44,6 +44,7 @@ const Home = () => {
     if (error) {
       alert.error(error);
       dispatch(clearErrors());
+      console.log(error);
     }
     dispatch(getProduct());
   }, [dispatch, error, alert]);

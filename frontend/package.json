@@ -63,5 +63,5 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "source-map-loader": "^4.0.1"
   },
-  "proxy": "http://192.168.1.3:4000"
+  "proxy": "http://localhost:4000"
 }
